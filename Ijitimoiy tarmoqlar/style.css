@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: slategrey;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+}
+nav .title-name{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav .tabs-block{
+    margin-left: 40px;
+}
+nav .tabs-block a {
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    width:100%;
+    height: 600px;
+    background-color: rgb(19, 21, 31);
+}
+header .card-body{
+    width:100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+header .card-body .card-1{
+    width: 50%;
+    height: 600px;
+}
+header .card-body .card-1 .site-name{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .card-body .card-1 .author{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header .card-body .card-1 .description{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header .card-body .card-1 .card-btns {
+    width:100%;
+    height: 200px;
+    display: flex;
+    justify-content: justify;
+}
+header .card-body .card-1 .card-btns .btn {
+    width: 40%;
+    height: 120px;
+    background-color: slategrey;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 2px slategrey solid;
+}
+header .card-body .card-1 .card-btns .btn a {
+    color: white;
+    width: 100%;
+    height: 120px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header .card-body .card-1 .card-btns .btn:hover{
+    background-color: transparent;
+    transition: 0.2s;
+}
+header .card-body .card-2{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .card-body .card-2 .img-thumbnail{
+    width:50%;
+    height: 320px;
+    border-radius: 5px;
+}
+header .card-body .card-2 .img-thumbnail:hover{
+    filter: blur(1px);
+    transition: 1s;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.0rem;
+  }
+  .social-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 .3rem;
+    transition: all .5s ease;
+  }
+  .social-links a:hover{
+    background: #fff;
+    color: var(--dark);
+  }
+  .span-text{
+    margin-top: 1rem;
+    display: block;
+    font-family: var(--Playfair);
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+  }
+  
+
+.project{
+    width: 80%;
+    margin-left: 10%;
+    min-height: 800px;
+    background-color: rgb(19, 19, 27);
+}
+.project .title-project{
+    color: white;
+    font-size: 36px;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: justify;
+    margin-top: 20px;
+}
+.project .card-1{
+    width: 45%;
+    height: 250px;
+}
+.project .card-1 img {
+    width: 80%;
+}
+.project .card-2{
+    width: 55%;
+    height: 250px;
+}
+.project .card-2 h1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.project .card-2 h3{
+    color: white;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.project .card-2 p {
+    color:rgb(192, 192, 192);
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.project .card-2 .btn {
+    width: 20%;
+    height: 50px;
+    background-color:gray;
+    border-radius: 1px;
+    border: 1px gray solid;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.project .card-2 .btn:hover{
+    background-color: transparent;
+    transition: 0.2s;
+}
+.project .card-2 .btn a{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 95%;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.system{
+    width: 100%;
+    min-height: 800px;
+    background-color: rgb(19, 19, 27);
+}
+.system .title-project{
+    color: white;
+    font-size: 36px;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: justify;
+    margin-top: 20px;
+}
+.system .card-1{
+    width: 55%;
+    height: 360px;
+}
+.system .card-1 img {
+    width: 80%;
+}
+.system .card-1 iframe {
+width: 70%;
+height: 250px;
+background-color:black;
+margin-left: 10px;
+}
+.system .card-2{
+    width: 45%;
+    height: 360px;
+}
+.system .card-2 h1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.system .card-2 h3{
+    color: white;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.system .card-2 p {
+    color:rgb(192, 192, 192);
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.system .card-2 .btn {
+    width: 20%;
+    height: 50px;
+    background-color:gray;
+    border-radius: 1px;
+    border: 1px gray solid;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.system .card-2 .btn:hover{
+    background-color: transparent;
+    transition: 0.2s;
+}
+.system .card-2 .btn a{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 95%;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h3{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+footer h3 a {
+    color: rgb(146, 146, 146);
+}
