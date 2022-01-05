@@ -1,2 +1,2 @@
-# Evrovostok
-Hello
+# Ijitimoiy tarmoqlar
+Oddiy proyekt
